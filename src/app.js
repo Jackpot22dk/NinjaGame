@@ -1,12 +1,9 @@
-import Initialize from "./Initialize";
+import game from "./Game";
 import "../css/style.scss";
+import Stage from "./Stage";
 
 // **  IIFE: Immediately Invoked Function Expression  */
 
 (function () {
-
-  console.log("starting the cool->app");
-
-  let init = new Initialize();
-
+  let gm = new game();
 })();
